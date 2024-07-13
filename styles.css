@@ -30,3 +30,25 @@ div[id*='post'] {
     width: 100%;
     height: auto;
 }
+.post-header{ 
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  border-bottom: solid rgb(175, 175, 175) 1px;
+    
+}
+.post-title{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px 2px;
+    padding: 0;
+}
+.post-date{
+    color: rgb(192, 192, 192);
+}
+.post-comment{
+    margin: 5px 2px;
+    padding: 0 10px;
+
+}
